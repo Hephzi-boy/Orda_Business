@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Orda_Business",
+    "slug": "Orda_Business",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/gptOrdaLogo.png",
+    "scheme": "ordabusiness",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/gptOrdaLogo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/gptOrdaLogo.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff",
+          "enableFullScreenImage_legacy": true,
+          "hideStatusBarOnSplashScreen": true,
+          "hideExponentContent": true
+        }
+      ],
+      "expo-localization"
+    ]
+    },
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+
